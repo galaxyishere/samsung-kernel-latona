@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -x
 
 if [ x = "x$ANDROID_BUILD_TOP" ] ; then
 echo "Android build environment must be configured"
