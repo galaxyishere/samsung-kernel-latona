@@ -1,10 +1,4 @@
-#!/bin/bash -x
-
-if [ x = "x$ANDROID_BUILD_TOP" ] ; then
-echo "Android build environment must be configured"
-exit 1
-fi
-. "$ANDROID_BUILD_TOP"/build/envsetup.sh
+#!/bin/bash 
 
 # Make mrproper
 make mrproper
